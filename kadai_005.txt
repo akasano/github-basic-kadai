@@ -1,0 +1,44 @@
+PS C:\Users\qiany> cd C:\Users\qiany\OneDrive\デスクトップ\kadai_005
+PS C:\Users\qiany\OneDrive\デスクトップ\kadai_005> git push -u https://github.com/akasano/github-basic-kadai main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\qiany\OneDrive\デスクトップ\kadai_005> cd C:\Users\qiany\OneDrive\デスクトップ\git_challenge
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\qiany\OneDrive\デスクトップ\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/09/17      9:34                git_challenge
+
+
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/qiany/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git commit -m "フォルダを作成"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git add C:\Users\qiany\OneDrive\デスクトップ\git_challenge\git_challenge\Hello_World
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git commit -m "テキストフォルダ作成"
+ create mode 100644 git_challenge/Hello_World/hello.world.txt
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git add C:\Users\qiany\OneDrive\デスクト create mode 100644 git_challenge/Hello_World/hello.world.txt
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git add C:\Users\qiany\OneDrive\デスクトップ\git_challenge\git_challenge\Hello_World
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git commit -m hello_world.txtを追加     
+[main 89e66da] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git add C:\Users\qiany\OneDrive\デスクトップ\git_challenge\git_challenge\Hello_World
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を追加"
+[main 2f668e1] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\qiany\OneDrive\デスクトップ\git_challenge> git log --oneline
+2f668e1 (HEAD -> main) 日本語訳を追加
+89e66da hello_world.txtを追加
+ed10909 テキストフォルダ作成
